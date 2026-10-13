@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "ResilMesh/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ResilMesh.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ResilMesh.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ResilMesh/1.0.0": {
+      "type": "project",
+      "path": "../ResilMesh/ResilMesh.csproj",
+      "msbuildProject": "../ResilMesh/ResilMesh.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "ResilMesh >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/rchandra/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/rchandra/git/resil-mesh/ResilMesh.Sample/ResilMesh.Sample.csproj",
+      "projectName": "ResilMesh.Sample",
+      "projectPath": "/home/rchandra/git/resil-mesh/ResilMesh.Sample/ResilMesh.Sample.csproj",
+      "packagesPath": "/home/rchandra/.nuget/packages/",
+      "outputPath": "/home/rchandra/git/resil-mesh/ResilMesh.Sample/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/rchandra/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/home/rchandra/git/resil-mesh/ResilMesh/ResilMesh.csproj": {
+              "projectPath": "/home/rchandra/git/resil-mesh/ResilMesh/ResilMesh.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/home/rchandra/.dotnet/sdk/8.0.425/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
