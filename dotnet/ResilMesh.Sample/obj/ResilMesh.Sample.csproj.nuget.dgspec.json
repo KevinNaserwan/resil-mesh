@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/rchandra/git/resil-mesh/dotnet/ResilMesh.Sample/ResilMesh.Sample.csproj": {}
+  },
+  "projects": {
+    "/home/rchandra/git/resil-mesh/dotnet/ResilMesh.Sample/ResilMesh.Sample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rchandra/git/resil-mesh/dotnet/ResilMesh.Sample/ResilMesh.Sample.csproj",
+        "projectName": "ResilMesh.Sample",
+        "projectPath": "/home/rchandra/git/resil-mesh/dotnet/ResilMesh.Sample/ResilMesh.Sample.csproj",
+        "packagesPath": "/home/rchandra/.nuget/packages/",
+        "outputPath": "/home/rchandra/git/resil-mesh/dotnet/ResilMesh.Sample/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rchandra/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/rchandra/git/resil-mesh/dotnet/ResilMesh/ResilMesh.csproj": {
+                "projectPath": "/home/rchandra/git/resil-mesh/dotnet/ResilMesh/ResilMesh.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/rchandra/.dotnet/sdk/8.0.425/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/rchandra/git/resil-mesh/dotnet/ResilMesh/ResilMesh.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rchandra/git/resil-mesh/dotnet/ResilMesh/ResilMesh.csproj",
+        "projectName": "ResilMesh",
+        "projectPath": "/home/rchandra/git/resil-mesh/dotnet/ResilMesh/ResilMesh.csproj",
+        "packagesPath": "/home/rchandra/.nuget/packages/",
+        "outputPath": "/home/rchandra/git/resil-mesh/dotnet/ResilMesh/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rchandra/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/rchandra/.dotnet/sdk/8.0.425/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

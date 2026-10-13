@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResilMesh", "ResilMesh\ResilMesh.csproj", "{4C7497C9-95EB-45F4-875B-483A136B37C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResilMesh.Tests", "ResilMesh.Tests\ResilMesh.Tests.csproj", "{B752366B-2805-40C8-8712-9EFD988E2579}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResilMesh.Sample", "ResilMesh.Sample\ResilMesh.Sample.csproj", "{9FFC0C5E-CBEE-4971-9E4F-AEAFCC97BB58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C7497C9-95EB-45F4-875B-483A136B37C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C7497C9-95EB-45F4-875B-483A136B37C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C7497C9-95EB-45F4-875B-483A136B37C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C7497C9-95EB-45F4-875B-483A136B37C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B752366B-2805-40C8-8712-9EFD988E2579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B752366B-2805-40C8-8712-9EFD988E2579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B752366B-2805-40C8-8712-9EFD988E2579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B752366B-2805-40C8-8712-9EFD988E2579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FFC0C5E-CBEE-4971-9E4F-AEAFCC97BB58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FFC0C5E-CBEE-4971-9E4F-AEAFCC97BB58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FFC0C5E-CBEE-4971-9E4F-AEAFCC97BB58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FFC0C5E-CBEE-4971-9E4F-AEAFCC97BB58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
