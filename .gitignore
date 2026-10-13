@@ -1,0 +1,4 @@
+node_modules/
+.resil-mesh-data/
+*.log
+.DS_Store

@@ -1,0 +1,28 @@
+{
+  "name": "resil-mesh",
+  "version": "1.0.0",
+  "description": "Zero-dependency distributed background job queue & scheduler with lease-locking, exponential backoff, and dead-letter queues",
+  "main": "lib/index.js",
+  "bin": {
+    "resil-mesh": "./bin/resil-mesh.js"
+  },
+  "scripts": {
+    "test": "node test/run-tests.js",
+    "demo": "node examples/worker-demo.js"
+  },
+  "keywords": [
+    "job-queue",
+    "distributed-scheduler",
+    "background-worker",
+    "fault-tolerance",
+    "exponential-backoff",
+    "dead-letter-queue",
+    "concurrency-lock",
+    "dev-tools"
+  ],
+  "author": "Kevin Naserwan <kevinnaserwan@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
